@@ -16,7 +16,9 @@ export const Navbar = props => {
 				aria-label="Toggle navigation">
 				<span className="navbar-toggler-icon" />
 			</button>
-			<div className="collapse navbar-collapse" id="navbarNav">
+			<div
+				className="collapse navbar-collapse justify-content-end"
+				id="navbarNav">
 				<ul className="navbar-nav">
 					<li className="nav-item active">
 						<a className="nav-link" href="#">
