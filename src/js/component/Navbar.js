@@ -2,8 +2,8 @@ import React from "react";
 
 export const Navbar = props => {
 	return (
-		<nav className="navbar navbar-expand-lg navbar-light bg-dark text-light">
-			<a className="navbar-brand" href="#">
+		<nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+			<a className="navbar-brand " href="#">
 				Navbar
 			</a>
 			<button
@@ -23,23 +23,19 @@ export const Navbar = props => {
 							Home <span className="sr-only">(current)</span>
 						</a>
 					</li>
-					<li className="nav-item">
+					<li className="nav-item active">
 						<a className="nav-link" href="#">
-							Features
+							About
 						</a>
 					</li>
-					<li className="nav-item">
+					<li className="nav-item active">
 						<a className="nav-link" href="#">
-							Pricing
+							Service
 						</a>
 					</li>
-					<li className="nav-item">
-						<a
-							className="nav-link disabled"
-							href="#"
-							tabIndex="-1"
-							aria-disabled="true">
-							Disabled
+					<li className="nav-item active">
+						<a className="nav-link" href="#">
+							Contact
 						</a>
 					</li>
 				</ul>
